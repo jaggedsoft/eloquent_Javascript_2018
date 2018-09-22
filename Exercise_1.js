@@ -18,9 +18,9 @@ Most exercises contain a piece of code that you can modify to solve the exercise
 */
 
 let hash = '#';
-let i;
+let x;
 
-for (i = 0; i < 7; i++) {
+for (x = 0; x < 7; x++) {
     console.log(hash);
     hash = hash + '#';
 }
