@@ -18,20 +18,20 @@ let countBs = x => {
         count += 1;
       }
     }
-    return count;
-  };
+  return count;
+};
   
-  let countChar = (x, char) => {
+let countChar = (x, char) => {
     let count = 0;
     for (i = 0; i < x.length; i++) {
       if (x.charAt(i) == char) {
         count += 1;
       }
     }
-    return count;
-  };
+  return count;
+};
   
-  console.log(countBs("BBC"));
-  // → 2
-  console.log(countChar("kakkerlak", "k"));
-  // → 4
+console.log(countBs("BBC"));
+// → 2
+console.log(countChar("kakkerlak", "k"));
+// → 4
